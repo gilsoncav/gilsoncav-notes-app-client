@@ -1,4 +1,4 @@
-import {useFormFields} from "../libs/HooksLib";
+import {useFormFields} from "../libs/hooksLib";
 import {ControlLabel, FormControl, FormGroup, HelpBlock} from "react-bootstrap";
 import React, {useState} from "react";
 import LoaderButton from "../components/LoaderButton";

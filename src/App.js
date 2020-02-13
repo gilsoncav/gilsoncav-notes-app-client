@@ -47,9 +47,14 @@ function App(props) {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-
                         {isAuthenticated
-                            ? <NavItem onClick={handleLogout}>Logout</NavItem>
+                            ?
+                            <>
+                                <LinkContainer to='/settings'>
+                                    <NavItem>Settings</NavItem>
+                                </LinkContainer>
+                                <NavItem onClick={handleLogout}>Logout</NavItem>
+                            </>
                             // this is a Fragment component - it tells React that the internal components should
                             // be inside the existing component but without rendering another <div> component just
                             // for this reason.

@@ -1,5 +1,6 @@
 export default {
     MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: 'pk_test_EmFciBaunehSZYLVt9oybF1c00DuaUZhq6',
     s3: {
         REGION: "sa-east-1",
         BUCKET: "gilsoncav-notes-app-uploads"
